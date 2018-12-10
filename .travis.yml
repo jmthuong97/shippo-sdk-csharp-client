@@ -6,3 +6,9 @@ before_script:
   - nuget restore Shippo.sln
 after_script:
   - nunit-console ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll
+install:
+  - nuget restore Shippo.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release Shippo.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Shippo.ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll
