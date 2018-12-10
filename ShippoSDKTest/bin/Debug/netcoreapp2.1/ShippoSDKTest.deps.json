@@ -335,13 +335,17 @@
           "System.Runtime.InteropServices": "4.1.0"
         },
         "runtimeTargets": {
-          "runtime/unix/lib/_._": {
+          "runtimes/unix/lib/netstandard1.3/Microsoft.Win32.Registry.dll": {
             "rid": "unix",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
           },
-          "runtime/win/lib/_._": {
+          "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll": {
             "rid": "win",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
           }
         }
       },
@@ -386,6 +390,12 @@
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.AppContext.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Collections/4.3.0": {
@@ -405,6 +415,12 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Concurrent.dll": {
+            "assemblyVersion": "4.0.12.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Collections.Immutable/1.2.0": {
@@ -417,6 +433,12 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Collections.NonGeneric/4.0.1": {
@@ -427,6 +449,12 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Collections.Specialized/4.0.1": {
@@ -438,11 +466,23 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.ComponentModel/4.0.1": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ComponentModel.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.ComponentModel.EventBasedAsync/4.0.11": {
@@ -451,6 +491,12 @@
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ComponentModel.EventBasedAsync.dll": {
+            "assemblyVersion": "4.0.11.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.ComponentModel.Primitives/4.1.0": {
@@ -458,6 +504,12 @@
           "System.ComponentModel": "4.0.1",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.ComponentModel.TypeConverter/4.1.0": {
@@ -477,6 +529,12 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -508,17 +566,23 @@
           "runtime.native.System": "4.3.0"
         },
         "runtimeTargets": {
-          "runtime/linux/lib/_._": {
+          "runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll": {
             "rid": "linux",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
           },
-          "runtime/osx/lib/_._": {
+          "runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll": {
             "rid": "osx",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
           },
-          "runtime/win/lib/_._": {
+          "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll": {
             "rid": "win",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
           }
         }
       },
@@ -530,6 +594,12 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.TextWriterTraceListener.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
         }
       },
       "System.Diagnostics.TraceSource/4.3.0": {
@@ -544,13 +614,17 @@
           "runtime.native.System": "4.3.0"
         },
         "runtimeTargets": {
-          "runtime/unix/lib/_._": {
+          "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
             "rid": "unix",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.24705.1"
           },
-          "runtime/win/lib/_._": {
+          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
             "rid": "win",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.24705.1"
           }
         }
       },
@@ -576,6 +650,12 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Dynamic.Runtime.dll": {
+            "assemblyVersion": "4.0.11.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Globalization/4.3.0": {
@@ -592,13 +672,17 @@
           "System.Runtime.InteropServices": "4.1.0"
         },
         "runtimeTargets": {
-          "runtime/unix/lib/_._": {
+          "runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll": {
             "rid": "unix",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
           },
-          "runtime/win/lib/_._": {
+          "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll": {
             "rid": "win",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
           }
         }
       },
@@ -622,6 +706,12 @@
       "System.IO.FileSystem.Primitives/4.0.1": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Linq/4.1.0": {
@@ -631,6 +721,12 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Linq.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Linq.Expressions/4.1.0": {
@@ -652,6 +748,12 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Linq.Expressions.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.ObjectModel/4.0.12": {
@@ -661,6 +763,12 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ObjectModel.dll": {
+            "assemblyVersion": "4.0.12.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Private.DataContractSerialization/4.1.1": {
@@ -689,6 +797,12 @@
           "System.Xml.ReaderWriter": "4.0.11",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Private.DataContractSerialization.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -705,6 +819,12 @@
           "System.Reflection.Emit.ILGeneration": "4.0.1",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Reflection.Emit.ILGeneration/4.0.1": {
@@ -712,6 +832,12 @@
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Reflection.Emit.Lightweight/4.0.1": {
@@ -720,6 +846,12 @@
           "System.Reflection.Emit.ILGeneration": "4.0.1",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Reflection.Extensions/4.0.1": {
@@ -745,6 +877,12 @@
           "System.Text.Encoding": "4.3.0",
           "System.Text.Encoding.Extensions": "4.0.11",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/System.Reflection.Metadata.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Reflection.Primitives/4.3.0": {
@@ -756,6 +894,12 @@
         "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -794,13 +938,17 @@
           "runtime.native.System": "4.3.0"
         },
         "runtimeTargets": {
-          "runtime/unix/lib/_._": {
+          "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
             "rid": "unix",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
           },
-          "runtime/win/lib/_._": {
+          "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
             "rid": "win",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
           }
         }
       },
@@ -809,6 +957,12 @@
           "System.IO": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.Runtime.Loader.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Runtime.Serialization.Json/4.0.2": {
@@ -816,12 +970,24 @@
           "System.IO": "4.3.0",
           "System.Private.DataContractSerialization": "4.1.1",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Json.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Runtime.Serialization.Primitives/4.1.1": {
         "dependencies": {
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -843,12 +1009,24 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Text.RegularExpressions.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Threading/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.dll": {
+            "assemblyVersion": "4.0.12.0",
+            "fileVersion": "4.6.24705.1"
+          }
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -861,17 +1039,35 @@
           "System.Collections": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Threading.Thread/4.0.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.Thread.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Threading.ThreadPool/4.0.10": {
         "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.ThreadPool.dll": {
+            "assemblyVersion": "4.0.10.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Xml.ReaderWriter/4.0.11": {
@@ -891,6 +1087,12 @@
           "System.Text.RegularExpressions": "4.1.0",
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.ReaderWriter.dll": {
+            "assemblyVersion": "4.0.11.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Xml.XmlDocument/4.0.1": {
@@ -905,6 +1107,12 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlDocument.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Xml.XmlSerializer/4.0.11": {
@@ -926,6 +1134,12 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.0.11",
           "System.Xml.XmlDocument": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {
+            "assemblyVersion": "4.0.11.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Xml.XPath/4.0.1": {
@@ -939,6 +1153,12 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XPath.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
         }
       },
       "System.Xml.XPath.XmlDocument/4.0.1": {
