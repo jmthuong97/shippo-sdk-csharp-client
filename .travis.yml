@@ -1,8 +1,10 @@
 language: csharp
-solution: Shippo.sln
+mono: none
+dotnet: 2.0.0
+
 install:
-  - nuget restore Shippo.sln
-  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+- dotnet restore
+
 script:
-  - xbuild /p:Configuration=Release Shippo.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll
+ - dotnet build
+ - dotnet test ./ShippoSDKTest/ShippoSDKTest.csproj
