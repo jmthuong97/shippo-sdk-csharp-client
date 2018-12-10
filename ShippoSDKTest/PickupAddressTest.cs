@@ -127,6 +127,9 @@ namespace ShippoSDKTest
             };
 
             if (param != null) pickupAddressModel = param;
+            
+            Console.WriteLine(pickupAddressModel.ContactName);
+            
             var data = _pickupAddressService.Create(pickupAddressModel).Result;
 
             return data;

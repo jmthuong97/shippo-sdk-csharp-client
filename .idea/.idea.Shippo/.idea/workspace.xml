@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18867dd3-4f65-4080-8de3-e7a6cd2d9d42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/PickupAddressTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/PickupAddressTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="18867dd3-4f65-4080-8de3-e7a6cd2d9d42" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +20,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="24" />
+          <entry key="cs" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="24" />
+          <entry key="C#" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -52,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShippoSDKTest/PickupAddressTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+            <state relative-caret-position="315">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <marker date="1544430702746" expanded="false" signature="6:115" ph="..." />
                 <marker date="1544430702746" expanded="true" signature="140:4262" ph="{...}" />
@@ -130,6 +123,22 @@
                 <marker date="1544425446268" expanded="true" signature="474:614" ph="{...}" />
                 <marker date="1544425446268" expanded="true" signature="671:1234" ph="{...}" />
                 <marker date="1544425446268" expanded="true" signature="934:1118" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShippoSDKTest/MerchantTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <marker date="1544425447984" expanded="false" signature="6:77" ph="..." />
+                <marker date="1544425447984" expanded="true" signature="102:585" ph="{...}" />
+                <marker date="1544425447984" expanded="true" signature="161:583" ph="{...}" />
+                <marker date="1544425447984" expanded="true" signature="248:328" ph="{...}" />
+                <marker date="1544425447984" expanded="true" signature="384:577" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -249,12 +258,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544422527519</updated>
       <workItem from="1544422531181" duration="3600000" />
-      <workItem from="1544430423673" duration="2185000" />
+      <workItem from="1544430423673" duration="3424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5785000" />
+    <option name="totallyTimeSpent" value="7024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,6 +276,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="30" width="1849" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -282,10 +292,10 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32969433" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.32969433" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,13 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShippoSDKTest/MerchantTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShippoSDK/Services/PickupAddressService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -438,10 +441,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ShippoSDKTest/MerchantTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <marker date="1544425447984" expanded="false" signature="6:77" ph="..." />
+            <marker date="1544425447984" expanded="true" signature="102:585" ph="{...}" />
+            <marker date="1544425447984" expanded="true" signature="161:583" ph="{...}" />
+            <marker date="1544425447984" expanded="true" signature="248:328" ph="{...}" />
+            <marker date="1544425447984" expanded="true" signature="384:577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShippoSDKTest/PickupAddressTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+        <state relative-caret-position="315">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
             <marker date="1544430702746" expanded="false" signature="6:115" ph="..." />
             <marker date="1544430702746" expanded="true" signature="140:4262" ph="{...}" />
