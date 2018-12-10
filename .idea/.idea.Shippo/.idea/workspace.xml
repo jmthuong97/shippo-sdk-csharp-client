@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18867dd3-4f65-4080-8de3-e7a6cd2d9d42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shippo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shippo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ShippoSDKTest/obj/Debug/netcoreapp2.1/ShippoSDKTest.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="18867dd3-4f65-4080-8de3-e7a6cd2d9d42" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +195,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="1910" />
     <option name="height" value="1049" />
@@ -265,12 +258,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544422527519</updated>
       <workItem from="1544422531181" duration="3600000" />
-      <workItem from="1544430423673" duration="4473000" />
+      <workItem from="1544430423673" duration="4846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8073000" />
+    <option name="totallyTimeSpent" value="8446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,7 +275,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="30" width="1849" height="1050" extended-state="7" />
+    <frame x="71" y="30" width="1849" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235718" />
