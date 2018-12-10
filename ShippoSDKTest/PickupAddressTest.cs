@@ -48,6 +48,7 @@ namespace ShippoSDKTest
             CreatePa(pickupAddressModel3);
 
             var expected = _pickupAddressService.Get().Result;
+            
             Assert.IsTrue(expected.Count > 0, "No data location return.");
         }
 
@@ -107,7 +108,7 @@ namespace ShippoSDKTest
                 DetailAddress = "Số 1 ngõ 3/12 Thuyền và Biển"
             };
             
-            var edit = _pickupAddressService.Edit(samplePa.Id, updatePa);
+            var edit = _pickupAddressService.Edit(samplePa.Id, updatePa).Result;
             var actual = _pickupAddressService.Detail(samplePa.Id).Result;
             
             Assert.AreEqual(updatePa.ContactPhone, actual.ContactPhone);

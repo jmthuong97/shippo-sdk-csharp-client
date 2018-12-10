@@ -1,0 +1,8 @@
+language: csharp
+solution: Shippo.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Shippo.sln
+after_script:
+  - nunit-console ShippoSDKTest/bin/Debug/netcoreapp2.1/ShippoSDKTest.dll
